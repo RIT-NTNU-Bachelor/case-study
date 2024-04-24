@@ -33,7 +33,7 @@ jobs:
         # Create the target directory
         mkdir -p datasets/FDDB
         # Extract the contents into the target directory
-        tar -xzvf datasets/originalPics.tar.gz -C data/FDDB
+        tar -xzvf datasets/originalPics.tar.gz -C datasets/FDDB
         # Remove the downloaded .tar.gz file
         rm datasets/originalPics.tar.gz
 
