@@ -42,7 +42,7 @@ jobs:
         # CD to correct directory
         cd ${{ github.workspace }}
         # Creating the directory for results
-        mkdir -p data/results
+        mkdir -p ./results
         # Execute the notebook in-place
         jupyter nbconvert --to notebook --execute compare_face_detection_accuracy.ipynb --inplace
         jupyter nbconvert --to notebook --execute compare_face_detection_efficacy.ipynb --inplace
