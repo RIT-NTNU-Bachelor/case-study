@@ -21,7 +21,7 @@ Estimated time of compiling both case studies (Note: the repository includes com
 
 ## About the Git History 
 
-As of PR [#54](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server/issues/54) in the OpenCV Server, this was originally part of the [OpenCV Server](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server) code. The decision for moving it out of the repository was based on the following arguments: 
+As of PR [#55](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server/pull/55) in the OpenCV Server, this was originally part of the [OpenCV Server](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server) code. The decision for moving it out of the repository was based on the following arguments: 
 
 - **Reduced Repository Size:** Separating case studies into their own repository keeps the main server lightweight, enhancing performance and ease of cloning and setup for new users.
 - **Improved Code Cohesion:** By isolating the case studies, we can maintain a high level of cohesion within each repository, ensuring that each component focuses on a specific set of responsibilities.
@@ -31,4 +31,4 @@ As of PR [#54](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server/issues/54) in 
 - **Client Convenience:** Separating the case studies into their own repository simplifies the user experience. The user can utilize each repo without the added complexity of the other repository.  
 
 
-Because of this transition between repositories the commit history is quite short. See PR, Issues and commit related to the case studies before PR [#54](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server/issues/54) (before 24th April 2024)
+Because of this transition between repositories the commit history is quite short. See PR, Issues and commit related to the case studies before PR [#55](https://github.com/RIT-NTNU-Bachelor/OpenCV_Server/pull/55) (before 24th April 2024)
