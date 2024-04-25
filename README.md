@@ -11,12 +11,14 @@ This case study measures the memory usage of each algorithm. It plots the result
 
 **Note:** The case studies do not represent an absolute truth. There are most likely something that makes it not objectively true. Use them with caution.
 
+## Workflow 
+
 Code Owners are allowed to use the Github Workflow that triggers the compiling of the case studies. The workflow also downloads the dataset needed. The code for the workflow can be found [here](https://github.com/RIT-NTNU-Bachelor/case-study/blob/main/.github/workflows/jupiterhub_workflow.yml). 
 
 Estimated time of compiling both case studies (Note: the repository includes compiled notebooks): 
 
 ```txt
-~ 2h, 46 min
+~ 2h, 04 min
 ```
 
 ## About the Git History 
