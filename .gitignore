@@ -161,3 +161,4 @@ cython_debug/
 
 # Ignore dataset with images 
 datasets/FDDB/
+datasets/group_images/
