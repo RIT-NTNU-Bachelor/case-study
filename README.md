@@ -11,6 +11,12 @@ This case study measures the memory usage of each algorithm. It plots the result
 
 **Note:** The case studies do not represent an absolute truth. There are most likely something that makes it not objectively true. Use them with caution.
 
+## Requirements 
+
+To successfully run this project, the following requirements must be met: 
+- Python Version 3.10.X
+- Installed all packages listed in `requirements.txt`
+
 ## Workflow 
 
 Code Owners are allowed to use the Github Workflow that triggers the compiling of the case studies. The workflow also downloads the dataset needed. The code for the workflow can be found [here](https://github.com/RIT-NTNU-Bachelor/case-study/blob/main/.github/workflows/jupiterhub_workflow.yml). 
