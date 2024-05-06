@@ -47,6 +47,7 @@ jobs:
         jupyter nbconvert --to notebook --execute compare_face_detection_accuracy.ipynb --inplace
         jupyter nbconvert --to notebook --execute compare_face_detection_efficacy.ipynb --inplace
         jupyter nbconvert --to notebook --execute compare_tracking.ipynb --inplace
+        jupyter nbconvert --to notebook --execute distance_estimation.ipynb --inplace
         
     - name: Commit results
       if: success()
